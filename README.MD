@@ -1,0 +1,1 @@
+- Update sobre el SDK, se instalo el Oracle OpenJDK 25

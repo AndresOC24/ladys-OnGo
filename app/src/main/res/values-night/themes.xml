@@ -1,7 +1,12 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.LadysOnGo" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+
+    <!-- Tema claro -->
+    <style name="Theme.LadyOnGo" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- colores de tu marca -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <!-- barra de estado -->
+        <item name="android:statusBarColor">@color/colorPrimary</item>
     </style>
+
 </resources>
